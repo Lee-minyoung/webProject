@@ -211,6 +211,14 @@ button {
 
 
 /* header section start */
+/* #form2Example1{
+    width:300px;
+    margin:0 auto;
+}
+#form2Example2{
+    width:300px;
+    margin:0 auto;
+} */
 
 .header_section {
     width: 100%;
@@ -438,7 +446,13 @@ button {
 
 
 /* cream section start */
-
+.cream_box{
+    margin-top:30px ;
+    margin-bottom:30px ;
+}
+.banner_img{
+    height: 400px;
+}
 .cream_section {
     width: 100%;
     float: left;
@@ -512,7 +526,7 @@ button {
 }
 
 .cream_box:hover {
-    background-image: linear-gradient( 0deg, #ffffff 37%, #faf0c7 37%);
+    background-image: linear-gradient( 0deg, #ffffff 37%, #ffe7ea 37%);
 }
 
 .cream_img {
@@ -523,7 +537,7 @@ button {
 }
 
 .price_text {
-    width: 80px;
+    width: 150px;
     margin: 0 auto;
     text-align: center;
     font-size: 24px;
