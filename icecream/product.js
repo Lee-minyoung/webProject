@@ -4,7 +4,7 @@ console.log(productData);
 productData.slice(0,3).forEach(function(product){
   let str=`
   <div class="col-md-4">
-  <div class="cream_box">
+  <div class="cream_box"><a href="detail.html" style="border:0px;">
      <div class="cream_img"><img src="${product.image}"></div>
      <div class="price_text">${product.price}won</div>
      <h6 class="strawberry_text">${product.prodName}</h6>

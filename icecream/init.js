@@ -6,3 +6,9 @@ const productData = [
   {prodCode:'P005', prodName: 'Blueberry Ice Cream', price: 3200, image:'images/blueberry.png'},
   {prodCode:'P006', prodName: 'Mint chocolate Ice Cream', price: 4200, image:'images/mint-chocolate.png'},
 ]
+
+const memberData = [
+  {id: 'user01', pw: 1111, name: '홍길동', responsibility: 'User'}
+ ,{id: 'user02', pw: 2222, name: '김길동', responsibility: 'User'}
+ ,{id: 'user03', pw: 3333, name: '박길동', responsibility: 'Admin'}
+]

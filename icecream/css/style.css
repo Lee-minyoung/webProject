@@ -211,19 +211,31 @@ button {
 
 
 /* header section start */
-/* #form2Example1{
+.login-container{
+    width: 100%;
+    padding-left: 700px; 
+    padding-right: 700px;
+}
+#form2Example1{
     width:300px;
     margin:0 auto;
 }
 #form2Example2{
     width:300px;
     margin:0 auto;
-} */
+} 
 
 .header_section {
     width: 100%;
     float: left;
     background-image: url(../images/background.jpg);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header_section2 {
+    width: 100%;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -1057,3 +1069,7 @@ textarea#comment.update_mail::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+
+
+
